@@ -10,7 +10,9 @@ A funny repo for the 2019 MolSSI bootcamp.
 
 This repo is under development.
 
-Travis CI has been activated.
+CI has been activated.
+
+Doc has been added.
 
 ### Copyright
 
