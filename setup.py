@@ -13,7 +13,6 @@ try:
 except:
     long_description = "\n".join(short_description[2:]),
 
-
 setup(
     # Self-descriptive entries which should always be present
     name='molssi_2019',
@@ -32,8 +31,7 @@ setup(
     # Optional include package data to ship with your package
     # Comment out this line to prevent the files from being packaged with your software
     # Extend/modify the list to include/exclude other items as need be
-    package_data={'molssi_2019': ["data/*.dat"]
-                  },
+    package_data={'molssi_2019': ["data/*.dat"]},
 
     # Additional entries you may want simply uncomment the lines you want and fill in the data
     # author_email='me@place.org',      # Author email
@@ -47,5 +45,4 @@ setup(
 
     # Manual control if final package is compressible or not, set False to prevent the .egg from being made
     # zip_safe=False,
-
 )

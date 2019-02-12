@@ -7,6 +7,10 @@ import molssi_2019 as ms
 import pytest
 import sys
 
+# Skip a test: @pytest.mark.skip
+# Label a test: @pytest.mark.test1
+# pytest -m "no test1"
+
 
 @pytest.fixture
 def num_list_3():
@@ -33,9 +37,6 @@ def test_mean_type_error():
         ms.mean(test_variable)
 
 
-# Skip a test: @pytest.mark.skip
-# Label a test: @pytest.mark.test1
-# pytest -m "no test1"
 def test_mean_zero_length_error():
     test_list = []
 

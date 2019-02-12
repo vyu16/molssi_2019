@@ -25,4 +25,3 @@ def title_case(sentence):
         raise ValueError('len(sentence) is zero')
 
     return ' '.join([word[0].upper() + word[1:].lower() for word in sentence.split()])
-     
