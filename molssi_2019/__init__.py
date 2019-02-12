@@ -8,8 +8,9 @@ A funny repo for the 2019 MolSSI bootcamp
 from __future__ import absolute_import
 
 # Add imports here
-from .molssi_math import *
-from .string_util import *
+from .molssi_math import mean
+from .string_util import title_case
+from .chop import chop1, chop2
 
 # Handle versioneer
 from ._version import get_versions
