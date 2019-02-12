@@ -1,3 +1,11 @@
+#############
+Start of file
+#############
+
 You added this file to a new clone.
 
 This is a new line.
+
+###########
+End of file
+###########
