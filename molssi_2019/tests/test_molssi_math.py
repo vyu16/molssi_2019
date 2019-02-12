@@ -13,14 +13,8 @@ def num_list_3():
     return [1, 2, 3, 4, 5]
 
 
-@pytest.mark.parametrize("num_list, expected_mean", [
-    ([1, 2, 3, 4, 5], 3),
-    ([0, 2, 4, 6], 3),
-    ([1, 2, 3, 4], 2.5),
-    (list(range(1, 1000000)), 1000000/2)
-])
-
-
+@pytest.mark.parametrize("num_list, expected_mean", [([1, 2, 3, 4, 5], 3), ([0, 2, 4, 6], 3), ([1, 2, 3, 4], 2.5),
+                                                     (list(range(1, 1000000)), 1000000 / 2)])
 def test_many(num_list, expected_mean):
     assert ms.mean(num_list) == expected_mean
 
@@ -47,3 +41,9 @@ def test_mean_zero_length_error():
 
     with pytest.raises(ZeroDivisionError):
         ms.mean(test_list)
+
+
+@pytest.mark.parametrize("x", [0, 1])
+@pytest.mark.parametrize("y", [2, 3])
+def test_foo(x, y):
+    pass
