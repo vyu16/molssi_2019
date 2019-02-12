@@ -5,6 +5,8 @@ A funny repo for the 2019 MolSSI bootcamp
 Handles the primary functions
 """
 
+import numpy
+
 
 def mean(num_list):
     """
