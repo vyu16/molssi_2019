@@ -11,6 +11,8 @@ Welcome to molssi_2019's documentation!
    :caption: Contents:
 
    usage/quickstart
+   modules/molssi_math
+   modules/string_util
 
 Indices and tables
 ==================
